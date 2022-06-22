@@ -1,0 +1,11 @@
+
+.background-div {
+/* background-color: #0183FD; */
+background-color: var(--theme-primary-color);
+position: absolute;
+top: 0;
+left:0;
+right:0;
+height: 35%;
+z-index: -10;
+}

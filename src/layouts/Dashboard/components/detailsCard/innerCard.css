@@ -1,0 +1,16 @@
+.inner-card-title {
+  font-size: 12px;
+  font-weight: bold;
+}
+
+.inner-card-img-bg {
+  background-color: #c1c1c1;
+  padding: 5px;
+  margin-right: 2px;
+  border-radius: 10px;
+}
+
+.inner-card-orderno {
+  font-size: 12px;
+  font-weight: bold;
+}

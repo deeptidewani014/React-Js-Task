@@ -1,0 +1,23 @@
+.svg-inline--fa {
+  display: var(--fa-display, inline-block);
+  height: 1em;
+  overflow: visible;
+  vertical-align: -0.125em;
+  padding-left: 1rem;
+}
+
+.left-menu-icon {
+}
+
+.right-menu-icon {
+  display: none;
+}
+
+@media screen and (max-width: 767px) {
+  .left-menu-icon {
+    display: none;
+  }
+  .right-menu-icon {
+    display: block;
+  }
+}

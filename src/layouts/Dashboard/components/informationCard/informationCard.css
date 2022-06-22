@@ -1,0 +1,19 @@
+.information-card-title{
+    color: gray;
+    font-size: 12px;
+}
+
+.information-card-value{
+    color:gray;
+    font-weight: bold;
+    font-size: 20px;
+}
+
+.logo-container{
+height: 50px;
+width: 50px;
+border-radius: 50%;
+display: flex;
+justify-content: center;
+align-items: center;
+}

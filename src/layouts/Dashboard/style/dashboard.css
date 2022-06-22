@@ -1,0 +1,16 @@
+@media screen and (max-width: 767px) {
+  .custom-sidepanel-column-container {
+    display: none;
+  }
+  .custom-sidepanel-column-open {
+    position: absolute;
+    z-index: 10;
+    top: 0;
+    left: 0;
+    right: 0;
+  }
+}
+
+.custom-sidepanel-column-container-responsive {
+  display: none;
+}

@@ -1,0 +1,44 @@
+.sidepanel-container {
+  height: 100vh;
+}
+.sidepanel-container-card {
+  height: 97vh;
+  width: 92%;
+}
+
+.sidepanel-item {
+  width: 87%;
+  border-radius: 5px;
+  padding: 10px;
+  margin-top: 5px;
+  cursor: pointer;
+}
+
+.sidepanel-item:hover:not(.sidepanel-item-active) {
+  background-color: rgb(210, 208, 208);
+}
+
+.sidepanel-item-active {
+  background-color: var(--theme-primary-color);
+}
+
+.sidepanel-item-title {
+  font-size: 11px;
+  font-weight: bold;
+}
+
+/* close btn */
+.custom-close-btn {
+  display: none;
+}
+@media screen and (max-width: 767px) {
+  .custom-close-btn {
+    display: block;
+  }
+  .extra-space-span {
+    display: block;
+  }
+}
+.extra-space-span {
+  display: none;
+}
